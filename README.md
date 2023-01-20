@@ -2,6 +2,15 @@
 
 Note: This is just a minor project carrying 3 credits. Kindly wait for our update on our major Bachelor's thesis.
 
+
+Guide: Dr J Dhurga Devi
+Supervisor: Dr O Uma Maheshwari
+
+Karthikeyan R
+Arjun C
+Preethaa J
+Sriram S
+
 ## Contents
 - Aim and Objective
 - Flow Diagram
@@ -28,7 +37,7 @@ To design and implement a H.264 video encoder using Verilog HDL.
 ![Proposal](resources/prop.png)
 ## Intra Prediction
 ![Intra Flow](resources/intra_flow.png)
-![Intra Architecture 1](resources/intra_arch1.png)
+![Intra Architecture 1](resources/intra_arch1.jpg)
 ![Intra Architecture 2](resources/intra_arch.png)
 
 ## Transform Coding
@@ -38,7 +47,7 @@ To design and implement a H.264 video encoder using Verilog HDL.
 ![IME Architecture 1](resources/IME_arch1.png)
 ![IME Architecture 2](resources/IME_arch.png)
 
-##Fractional Motion Estimation (FME)
+## Fractional Motion Estimation (FME)
 ![FME Flow](resources/FME_flow.png)
 ![FME Diagram](resources/FME_dia.png)
 ![FME Architecture 1](resources/FME_arch2.png)
@@ -46,16 +55,16 @@ To design and implement a H.264 video encoder using Verilog HDL.
 ![FME Architecture 3](resources/FME_arch.png)
 ![FME time](resources/fme_time.png)
 
-##Integration Testing
+## Integration Testing
 ![Integration Testing](resources/it.png)
 
 ## Comparison
 ![Comparison](resources/comp.png)
 
-##Simulation flow results
+## Simulation flow results
 ![Output](resources/out.gif)
 
-##Parameters (for 720p encodes)
+## Parameters (for 720p encodes)
 Parameter | X264 White paper|Presented model|Percentage Improvement|Unit
  -----|------|------|-------
  VMAF(Video Multi-Method Assessment Fusion) |82.19|85.46|4%|Unitless
@@ -64,12 +73,12 @@ Clock cycles|75001|69750|7%|Unitless
 Bitrate|3896|4003|27%|bps
 
 
-##Results and Future Work
-###Results:
+## Results and Future Work
+### Results:
 - Overall improvement in clock cycle and PSNR.
 - Analysed how quantisation parameter affects the quality of reconstructed image quality.
 
-###Future Work:
+### Future Work:
 - To integrate intra-loop into the co-simulation flow.
 - To integrate intra- and inter-loop into the FPGA flow.
 - To optimise blocks further.
