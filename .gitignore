@@ -1,0 +1,12 @@
+/obj_dir/
+/tests/data/
+*.vscode
+*.tiff
+*.log
+*.jou
+*.debug
+*.str
+*/*/build/
+*/build/
+*.pyc
+*.rst
