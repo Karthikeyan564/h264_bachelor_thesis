@@ -1,4 +1,4 @@
-# Bachelor's thesis(minor project) An Implementation of H.264 Video Codec
+# Bachelor's thesis: An Implementation of H.264 Video Codec
 
 Note: This is just a minor project carrying 3 credits. Kindly wait for our update on our major Bachelor's thesis.<br><br>
 
